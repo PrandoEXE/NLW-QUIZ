@@ -1,95 +1,96 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a função do operador 'typeof' em JavaScript?",
-      respostas: [
-        "Retorna o tipo de dado de uma variável.",
-        "Realiza uma comparação estrita de valores e tipos.",
-        "Incrementa o valor de uma variável."
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que o método 'charAt()' faz em JavaScript?",
-      respostas: [
-        "Remove caracteres de uma string.",
-        "Retorna o caractere em uma posição específica de uma string.",
-        "Substitui caracteres em uma string."
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se declara uma constante em JavaScript?",
-      respostas: [
-        "const myConst;",
-        "let myConst;",
-        "var myConst;"
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a finalidade do comando 'break' em uma estrutura de repetição?",
-      respostas: [
-        "Encerrar a execução do programa.",
-        "Sair antecipadamente de uma estrutura de repetição.",
-        "Continuar para a próxima iteração."
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que é o DOM (Document Object Model) em JavaScript?",
-      respostas: [
-        "Uma linguagem de programação.",
-        "Uma interface para manipular documentos HTML e XML.",
-        "Um estilo de design para páginas da web."
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que o método 'toFixed()' faz em JavaScript?",
-      respostas: [
-        "Remove casas decimais de um número.",
-        "Adiciona casas decimais a um número.",
-        "Arredonda um número para um número específico de casas decimais."
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Como se faz um comentário de várias linhas em JavaScript?",
-      respostas: [
-        "// Este é um comentário",
-        "/* Este é um comentário */",
-        "<!-- Este é um comentário -->"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é o operador lógico 'OU' em JavaScript?",
-      respostas: [
-        "&",
-        "|",
-        "||"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é o evento 'click' em JavaScript?",
-      respostas: [
-        "Uma função para calcular cliques em uma página.",
-        "Um tipo de dado primitivo.",
-        "Uma interação do usuário ao clicar em um elemento HTML."
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a função do método 'splice()' em JavaScript?",
-      respostas: [
-        "Adicionar elementos em uma posição específica de um array.",
-        "Remover elementos de um array em uma posição específica.",
-        "Reverter a ordem dos elementos em um array."
-      ],
-      correta: 1
-    }
-  ];
+  {
+    pergunta: "Qual é o campeão conhecido como 'O Invocador das Trevas'?",
+    respostas: [
+      "Veigar",
+      "Swain",
+      "Nocturne"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual destes campeões tem o título de 'O Herdeiro das Lâminas'?",
+    respostas: [
+      "Yasuo",
+      "Zed",
+      "Riven"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o campeão cujo título é 'A Canção do Crepúsculo'?",
+    respostas: [
+      "Sona",
+      "Diana",
+      "Ahri"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual destes campeões é conhecido como 'O Corvo de Ferro'?",
+    respostas: [
+      "Swain",
+      "Fiddlesticks",
+      "Talon"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o título de Darius, o campeão que usa uma gigantesca machadinha?",
+    respostas: [
+      "O Artífice da Destruição",
+      "O Grande General",
+      "O Terror de Noxus"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o campeão que possui a habilidade 'Crescimento Descontrolado'?",
+    respostas: [
+      "Malphite",
+      "Maokai",
+      "Nautilus"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual destes campeões é conhecido como 'O Aspecto do Urso'?",
+    respostas: [
+      "Volibear",
+      "Nunu & Willump",
+      "Udyr"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o título de Irelia, a campeã que utiliza lâminas como armas?",
+    respostas: [
+      "A Dançarina das Lâminas",
+      "A Lâmina da Noite",
+      "A Guardiã dos Ventos"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o nome do campeão que é um poderoso mago e mestre do tempo?",
+    respostas: [
+      "Zilean",
+      "Ekko",
+      "Ryze"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o título de Nasus, o guardião das areias?",
+    respostas: [
+      "O Devorador de Almas",
+      "O Imortal",
+      "O Guardião das Areias"
+    ],
+    correta: 2
+  }
+];
+
   // document é um tipo de objeto existente nos navegadores e querySelector é uma função que busca um elemento html e atribui à uma variável 
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
